@@ -1,0 +1,20 @@
+{
+      	"method": "SLSQP",
+      	"tolerance": 1e-16,
+      	"max iteration": 1e3,
+      	"disp": false,
+        "initial value": [
+        ],
+      	"constraints": {
+          	"apply": true
+        },
+      	"boundary": {
+          	"apply": false,
+          	"value": [
+              	[-10, 10],
+              	[-15, 15],
+              	[-10, 10]
+          	]
+        }
+}
+
